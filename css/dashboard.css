@@ -1,0 +1,192 @@
+@import url('https://use.typekit.net/owt5hyk.css');
+@import url('https://use.typekit.net/iwf7tyw.css');
+
+body {
+    margin: 0;
+    height: 100vh;
+    width : 100vw;
+    background: center / cover no-repeat url(background-dashboard.png), #212121;
+}
+
+section {
+    padding: 20px 5vw;
+    font-family: "transducer", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FAFAFA; 
+}
+
+h1 {
+    margin-bottom: 0px;
+}
+
+.line {
+    border: #FAFAFA solid 1px;
+    width: 90vw;
+}
+
+.event {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 25px;
+    margin-top: 20px;
+    /* gap: 62px; */
+    border-radius: 20px;
+    background: linear-gradient(#111111, #111111) padding-box,
+              linear-gradient(to right, #5961BF, #BE76D2) border-box;
+    border: 3px solid transparent;
+}
+
+.f1{
+    display: flex;
+    justify-content: flex-end;
+    font-family: "transducer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+    gap: 20px;
+}
+
+.f1-1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.f1 h2{
+    margin: 0;
+    font-size: 44px;
+}
+
+.f1 h2 a{
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+.f1 h2 a:hover{
+    text-decoration: underline;
+}
+
+.f2{
+    display: flex;
+    gap: 10px;
+}
+
+.about-event {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.event-name h2 {
+    margin: 0;
+    font-size: 44px;
+}
+
+.speaker {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "transducer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+
+}
+
+.more-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.details {
+    display: flex;
+    font-family: "transducer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 14px;
+}
+
+.details img {
+    width: 20px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(104%) contrast(100%);
+    padding-right: 5px;
+}
+
+.manage {
+    display: flex;
+    gap: 20px;
+}
+
+.edit {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "transducer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    background: linear-gradient(to right,#BE76D2, #5961BF);
+    border-radius: 5px;
+    border: none;
+}
+
+.edit img {
+    padding-right: 5px;
+    width: 20px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(104%) contrast(100%);
+}
+
+.edit a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.delete {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "transducer", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 12px;
+    background: none;
+    border: none;
+}
+
+.delete img {
+    padding-right: 5px;
+    width: 20px;
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(104%) contrast(100%);
+}
+
+.delete a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.new-event {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 5vw;
+}
+
+.add-event {
+    width: 80px;
+    border: #ffffff solid 2px;
+    border-radius: 10px;
+    background: linear-gradient(to right,#BE76D2, #5961BF);
+    position: fixed;
+    bottom: 5vw;
+}
+
+.add-event img {
+    filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(84deg) brightness(104%) contrast(100%);
+}
+
+.imgLogoEvent{
+    width: 100px;
+    aspect-ratio: 1;
+}
